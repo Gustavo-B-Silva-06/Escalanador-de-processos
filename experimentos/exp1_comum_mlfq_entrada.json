@@ -1,0 +1,33 @@
+{
+  "algoritmo": "MLFQ",
+  "configuracao": {
+    "quantuns": [
+      2,
+      4,
+      8
+    ],
+    "boost": 20
+  },
+  "processos": [
+    {
+      "id": "P01",
+      "chegada": 0,
+      "cpu": 8
+    },
+    {
+      "id": "P02",
+      "chegada": 1,
+      "cpu": 4
+    },
+    {
+      "id": "P03",
+      "chegada": 2,
+      "cpu": 2
+    },
+    {
+      "id": "P04",
+      "chegada": 4,
+      "cpu": 1
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "algoritmo": "SJF",
+  "linha_do_tempo": [
+    {
+      "processo": "P01",
+      "inicio": 0,
+      "fim": 18
+    },
+    {
+      "processo": "P02",
+      "inicio": 18,
+      "fim": 30
+    }
+  ],
+  "processos": [
+    {
+      "id": "P01",
+      "primeira_execucao": 0,
+      "conclusao": 18,
+      "turnaround": 18,
+      "espera": 0,
+      "resposta": 0
+    },
+    {
+      "id": "P02",
+      "primeira_execucao": 18,
+      "conclusao": 30,
+      "turnaround": 27,
+      "espera": 15,
+      "resposta": 15
+    }
+  ],
+  "medias": {
+    "turnaround": 22.5,
+    "espera": 7.5,
+    "resposta": 7.5
+  }
+}
